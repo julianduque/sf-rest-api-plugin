@@ -1,0 +1,76 @@
+
+<<<<<<-- cut here -->>>>>>
+
+nock('https://jduque-winter23-dev-ed.develop.my.salesforce.com:443', {"encodedQueryParams":true})
+  .get('/services/data/v56.0/')
+  .reply(200, ["1f8b0800000000000000","7d95c16edb300c40ff456735cea5c5d05bb675c080e5d4fe0023b3891a59f424d95d36ecdf47d972b3a4a572f47b8a488aa2fea844e4acdfab7bd5440ca335189b161234e3eddd6add2c58ab0e136420996f5c2b340e6c90c442b57a26d7628892b760adfa80e600e91b854eb42f1cad0cf90426dda400a692deb5a6d54b24ffeb99ff455a72167817de31a198e982b54ab013239f9856d0f75bf483642d58ab9f8335c78d4996bcf89f174e5e82e1b4714ed60bcf85eb3a0c06e58a15aed52b8ca23631ad2c25c9c888b3f6e04ec91a3193b3a0554408e6209985b2d6414819b4361a1a393571c97b93636ed1279bf2a2434a7dbc6f1a477beb57111c463e79832bae4263db66bdfefa793dffb63e3d6d378ffce9b67cfa141eeee0fbe6612e6a4fd1a65a558bc0dd0e01f83261b0bfb17daca6fc91caf78a3b19431fac178bffbfc2dd79c04e0c6d865a791ae47e9ba1562d75d6936415ca03624439b619e6d39ed81376bd8384e2deef3cad7816543628741a121e8de82d582bc7c8c7ca1c390b59ee6c12a32d340f356254996733e69a623bf4e2f114ca37299ebcb9c937d9cab5ba94ca60a84e853c12491e5e13e3c70192dca533e408ad1896cd7523032e37f2086e10f3bdb2786bda5927ea8572cb7560dd97fa815f38537bc44a1b2d98ef0f1dd1734ce2437016e659c04fce0f38d120b7c995a5d5d1d3abc3768f5b9e887bbe9272601fa97c9d68f7c279c9d768e17c50f5c705dede9538f43d05319005fffd0797e7a37567080000"], [
+  'Date',
+  'Wed, 30 Nov 2022 20:45:42 GMT',
+  'Set-Cookie',
+  'CookieConsentPolicy=0:1; path=/; expires=Thu, 30-Nov-2023 20:45:42 GMT; Max-Age=31536000',
+  'Set-Cookie',
+  'LSKey-c$CookieConsentPolicy=0:1; path=/; expires=Thu, 30-Nov-2023 20:45:42 GMT; Max-Age=31536000',
+  'Strict-Transport-Security',
+  'max-age=63072000; includeSubDomains',
+  'X-Content-Type-Options',
+  'nosniff',
+  'X-XSS-Protection',
+  '1; mode=block',
+  'X-Robots-Tag',
+  'none',
+  'Cache-Control',
+  'no-cache,must-revalidate,max-age=0,no-store,private',
+  'Set-Cookie',
+  'BrowserId=9L8Pm3DvEe23W3vn7LhnXA; domain=.salesforce.com; path=/; expires=Thu, 30-Nov-2023 20:45:42 GMT; Max-Age=31536000',
+  'Sforce-Limit-Info',
+  'api-usage=27/15000',
+  'Content-Type',
+  'application/json;charset=UTF-8',
+  'Vary',
+  'Accept-Encoding',
+  'Content-Encoding',
+  'gzip',
+  'Transfer-Encoding',
+  'chunked',
+  'Connection',
+  'close'
+]);
+<<<<<<-- cut here -->>>>>>
+
+<<<<<<-- cut here -->>>>>>
+
+nock('https://jduque-winter23-dev-ed.develop.my.salesforce.com:443', {"encodedQueryParams":true})
+  .get('/services/data/v56.0/limits')
+  .reply(200, ["1f8b0800000000000000","d5564d73da3010fd2b0ce71c800019720343523aa1213821bd0a7b039ac892ab0f0acde4bf776583f187080c974e3981d8f776b5fb76571ff57ea0e91afc40121dac1ee552d56f3fea13b2a9df5e5fd5671011ca295fd66f5b9f57f53e276cab69a0461b0d127f0c89263efd039341866a377add4601999c20da133c305202d77db5e5c13de819c442ea31579af0000e9e5b8d2203fe2ee047142140b9758f68ba5c69e56b21b79e04a2a9e01953a7c0d371b350158835c8ad9ba25549c381c2c77ba49798199e8fbf143e828684b26d96401bf91b13bfbf8bc5680381b11e0ff85202bb55fc4bcc040921bca30c54a9029d66397fc949c611d319fc32a0f4c161b3d328419aeddecd7506b1f5eac7b071c4dab2d0d27d93a30af8b9e0b2538ef1801818f68e510eac22e1cb20d3136ffa541b730d4b9954aef6a240d6b0481c020d61ad1fc71947116f3dfa0433f8266400c39fb51f24021593006a335852a5e5f628321fecbcf564503fb618564364992f47efa6dbe91645941e3918500eb9fb5612dbcce775080c1b5742386544e305a2d11a15793edc48b260700f1c240d7c8db28fd00af37e11cfe504e73773d3c553a1d977f314534303dd9f8e3dc258417855e99de6b1a21f6cbda1572472301da73a7aadf2adf60c7786a79e31abf6160f34a2fadc9b5c5cda7fdc51ae5dd42d0ec4cc14174748643817cc44705923fc77f97915f2ddee8e11fe97d375bbb475dabbb5831bba3293aa6bd1d1c68735e7315ac88b6bbfb9879fcbf29b3072b7161cbbb3b2bc76bb2b450d895a2d04567c066f12d4eae4a3a102538615b750b583aa30d499362ae7acb7ff14e7fafe93313c08be7c06198dc30989e3c428af2d87b80ede27846332432c83c6ec4fcd82d1a0b2b98fcf8094e4d10ac08e0e61f4c9419a42124f98da638be594cb0c7f76771e8fc55fa13e2e4de091d799fbe591429e690403a220dc37d9c9382744a9a4137396253b6b85455c9dbd11dc11ee388a797c51a89111d7543388f0e08bb93325c13b1ab7e620157a4bbcc25723d60d78a57a85629a1346c373c29e62f5a8b2043e949e9c95c71c4ed6c489679416d189dc5b6e49d7d63c9dbc8f462f84e1e14eeebb0eb42b3337911cf318bf3128d5b0538acdda5d381b3fff0297ab000c650d0000"], [
+  'Date',
+  'Wed, 30 Nov 2022 20:45:42 GMT',
+  'Set-Cookie',
+  'CookieConsentPolicy=0:1; path=/; expires=Thu, 30-Nov-2023 20:45:42 GMT; Max-Age=31536000',
+  'Set-Cookie',
+  'LSKey-c$CookieConsentPolicy=0:1; path=/; expires=Thu, 30-Nov-2023 20:45:42 GMT; Max-Age=31536000',
+  'Strict-Transport-Security',
+  'max-age=63072000; includeSubDomains',
+  'X-Content-Type-Options',
+  'nosniff',
+  'X-XSS-Protection',
+  '1; mode=block',
+  'X-Robots-Tag',
+  'none',
+  'Cache-Control',
+  'no-cache,must-revalidate,max-age=0,no-store,private',
+  'Set-Cookie',
+  'BrowserId=9PONIHDvEe23Rp2IwI1E_A; domain=.salesforce.com; path=/; expires=Thu, 30-Nov-2023 20:45:42 GMT; Max-Age=31536000',
+  'Sforce-Limit-Info',
+  'api-usage=27/15000',
+  'Content-Type',
+  'application/json;charset=UTF-8',
+  'Vary',
+  'Accept-Encoding',
+  'Content-Encoding',
+  'gzip',
+  'Transfer-Encoding',
+  'chunked',
+  'Connection',
+  'close'
+]);
+<<<<<<-- cut here -->>>>>>
