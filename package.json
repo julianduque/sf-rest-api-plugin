@@ -1,5 +1,5 @@
 {
-  "name": "rest-api",
+  "name": "@julianduque/rest-api-plugin",
   "description": "A Salesforce REST API plugin for the sf CLI",
   "version": "1.0.0",
   "dependencies": {
@@ -66,12 +66,7 @@
     "topicSeparator": " ",
     "devPlugins": [
       "@oclif/plugin-help"
-    ],
-    "topics": {
-      "hello": {
-        "description": "Commands to say hello."
-      }
-    }
+    ]
   },
   "scripts": {
     "build": "sf-build",

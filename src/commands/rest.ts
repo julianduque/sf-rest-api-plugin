@@ -3,7 +3,7 @@ import { Messages } from '@salesforce/core';
 import { AnyJson } from '@salesforce/ts-types';
 
 Messages.importMessagesDirectory(__dirname);
-const messages = Messages.load('rest-api', 'rest', [
+const messages = Messages.load('@julianduque/rest-api-plugin', 'rest', [
   'summary',
   'description',
   'examples',
